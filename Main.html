@@ -17,94 +17,128 @@
     <title>Eteg test</title>
 </head>
 <body>
-    <div class="row">
+    <div class="container">
+        <div class="row">
 
-        <!-- Sidebar-->
-        <div class="col-12 col-md-2 sidebar">
-            <img src="images/Logo.jpg" /> <br /><br />
-            <span>
-                <i class="far fa-file-archive"></i>    Summary<br /><br />
-            </span>
-            <span>
-                <i class="fas fa-users"></i>    Applicants<br /><br />
-            </span>
-            <span>
-                <i class="fas fa-stream"></i>    Loan details<br /><br />
-            </span>
-            <span>
-                <i class="fas fa-shield-alt"></i>    Security<br /><br />
-            </span>
-            <span>
-                <i class="far fa-money-bill-alt"></i>    Finantial Position<br /><br />
-            </span>
-            <span>
-                <i class="fas fa-file-invoice-dollar"></i>    Loan Summary
-            </span>
-        </div>
-
-        <!-- Main content-->
-        <div class="col-12 col-md-10 main-content">
-
-            <!--First top bar (gray)-->
-            <div class="gray-top-bar">
-                <i class="far fa-save"></i>
-                <i class="fas fa-print" ></i>
-                <br />
-                <p>Save</p>
-                <p>Print</p>
-                <i class="fas fa-cog"></i>
-                <i class="fas fa-user"></i>
-
-
-            </div>
-            <!--Second top bar -->
-            <div class="second-top-bar">
-                <br />
-                <img src="images/Lender Logo.jpg" />
-                <p>Application ID: 33334223</p>
-                <p>Lender App Ref: 821315302</p>
-                <img src="images/Icon house + $.jpg" />
-                <p>Loan Reason: Refinance OO </p>
-            </div>
-            <hr />
-
-            <!--Crumblebread-->
-            <div class="crumblebread">
-                <a href="#Home">Home</a>
-                <p>  >  </p>
-                <a href="#Application">Application</a>
-                <p>  >  </p>
-                <a href="#Summary">Summary</a>
-                <p>  >  </p>
-                <a>Application Summary</a>
+            <!-- Sidebar-->
+            <div class="col-12 col-md-2 sidebar">
+                <img src="images/Logo.jpg" /> <br /><br />
+                <span>
+                    <i class="far fa-file-archive"></i>    Summary<br /><br />
+                </span>
+                <span>
+                    <i class="fas fa-users"></i>    Applicants<br /><br />
+                </span>
+                <span>
+                    <i class="fas fa-stream"></i>    Loan details<br /><br />
+                </span>
+                <span>
+                    <i class="fas fa-shield-alt"></i>    Security<br /><br />
+                </span>
+                <span>
+                    <i class="far fa-money-bill-alt"></i>    Finantial Position<br /><br />
+                </span>
+                <span>
+                    <i class="fas fa-file-invoice-dollar"></i>    Loan Summary
+                </span>
             </div>
 
+            <!-- Main content-->
+            <div class="col-12 col-md-10 main-content">
 
-            <!--Accordion-->
-            <div class="accordion">
+                <!--First top bar (gray)-->
+                <div class="gray-top-bar">
+                    <i class="far fa-save"></i>
+                    <i class="fas fa-print"></i>
+                    <br />
+                    <p>Save</p>
+                    <p>Print</p>
+                    <i class="fas fa-cog"></i>
+                    <i class="fas fa-user"></i>
+
+
+                </div>
+                <!--Second top bar -->
+                <div class="second-top-bar">
+                    <br />
+                    <img src="images/Lender Logo.jpg" />
+                    <p>Application ID: 33334223</p>
+                    <p>Lender App Ref: 821315302</p>
+                    <img src="images/Icon house + $.jpg" />
+                    <p>Loan Reason: Refinance OO </p>
+                </div>
                 <hr />
-                <div class="summary">
-                    <span class="summary">
-                        <i class="fas fa-minus-circle"></i>   SUMMARY
-                    </span>
-                    <p class="accordion">Application ID:  35234523</p>
-                    <p class="accordion">Loan:            Owner Occupied $ 223,623.34</p>
+
+                <!--Crumblebread-->
+                <div class="crumblebread">
+                    <a href="#Home">Home</a>
+                    <p>  >  </p>
+                    <a href="#Application">Application</a>
+                    <p>  >  </p>
+                    <a href="#Summary">Summary</a>
+                    <p>  >  </p>
+                    <a>Application Summary</a>
+                </div>
 
 
+                <!--Accordion-->
+                <div class="accordion">
                     <hr />
+                    <div class="summary">
+                        <span class="summary">
+                            <i class="fas fa-minus-circle"></i>   SUMMARY
+                        </span>
+                        <p class="accordion">Application ID:  35234523</p>
+                        <p class="accordion">Loan:            Owner Occupied $ 223,623.34</p>
+                        <div class="row">
+                            <div class="col-1">
+                                <p>Applicants: </p>
+                            </div>
+                            <div class="col-11">
+                                <table class="table-summary">
+                                    <tr id="line-1">
+                                        <th>Applicant name</th>
+                                        <th>Type</th>
+                                        <th>Home Number</th>
+                                        <th>Mobile</th>
+                                        <th>Work phone</th>
+                                        <th>Email</th>
+                                    </tr>
+                                    <tr id="line-2">
+                                        <td>Mrs Julie Smith</td>
+                                        <td> Applicant</td>
+                                        <td> (03) 62277321</td>
+                                        <td> 0404822143 </td>
+                                        <td> (03) 62277321</td>
+                                        <td> julie.smith@gmail.com</td>
+                                    </tr>
+                                    <tr id="line-3">
+                                        <td>Mrs Ian Smith</td>
+                                        <td> Applicant</td>
+                                        <td> (03) 62277321</td>
+                                        <td> 0404822143 </td>
+                                        <td> (03) 62277321</td>
+                                        <td> ian.smith@gmail.com</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <p class="accordion">Security: 10 Freesia Crescent, Kingston, TAS 5322 AU   Property type: Fully Detached House</p>
+                        <hr />
+                    </div>
+                    <div class="broker">
+                        <span class="broker">
+                            <i class="fas fa-minus-circle"></i>   BROKER INFORMATION
+                        </span>
+                        <hr />
+                    </div>
+                    <div class="accontant">
+                        <span class="accontant">
+                            <i class="fas fa-minus-circle"></i>   LEGAL REPRESENTATION + ACCONTANT
+                        </span>
+                        <hr />
+                    </div>
                 </div>
-                <div class="broker">
-                    <span class="broker">
-                        <i class="fas fa-minus-circle"></i>   BROKER INFORMATION
-                    </span>
-                    <hr />
-                </div>
-               <div class="accontant">
-                   <span class="accontant">
-                       <i class="fas fa-minus-circle"></i>   LEGAL REPRESENTATION + ACCONTANT
-                   </span>
-                   <hr />
-               </div>                
             </div>
         </div>
     </div>

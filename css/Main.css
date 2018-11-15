@@ -6,7 +6,8 @@
         height: 100%;
         width: 100%;
         background-size: 100%;
-        padding: 20px;
+        padding: 10px;
+        float: left;
     }
 
     .sidebar i {
@@ -30,6 +31,7 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center; 
 }
 
     .gray-top-bar i{
@@ -46,6 +48,7 @@
     padding: 5px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
     .second-top-bar p {
@@ -81,4 +84,24 @@ hr {
     box-sizing: border-box;
     width: 100%;
 }
+
+/* Table */
+
+    table {
+        border: 1px solid black;
+        font-size: 12px;
+        color: midnightblue;
+        padding: 5px;
+    }
+    #line-1 {
+        background-color: darkgray;
+    }
+
+    #line-2 {
+        background-color: lightgray;
+    }
+
+    #line-3 {
+
+    }
 
