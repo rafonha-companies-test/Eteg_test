@@ -13,13 +13,19 @@
         font-size: 24px; 
     }
 
+/* Main content*/
+.main-content {
+    padding: 0px;
+}
+
+
 /* First top navigation bar (gray) */
-    .gray-top-bar {
-        background-color: darkgray;
-        color: white;
-        height: 100%;
-        width: 100%;
-    }
+.gray-top-bar {
+    background-color: darkgray;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
 
     .gray-top-bar i{
         font-size: 24px; 
