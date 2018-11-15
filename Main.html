@@ -17,42 +17,98 @@
     <title>Eteg test</title>
 </head>
 <body>
+    <div class="row">
 
-    <div class="container">
-        <div class="row">
+        <!-- Sidebar-->
+        <div class="col-12 col-md-2 sidebar">
+            <img src="images/Logo.jpg" /> <br /><br />
+            <span>
+                <i class="far fa-file-archive"></i>    Summary<br /><br />
+            </span>
+            <span>
+                <i class="fas fa-users"></i>    Applicants<br /><br />
+            </span>
+            <span>
+                <i class="fas fa-stream"></i>    Loan details<br /><br />
+            </span>
+            <span>
+                <i class="fas fa-shield-alt"></i>    Security<br /><br />
+            </span>
+            <span>
+                <i class="far fa-money-bill-alt"></i>    Finantial Position<br /><br />
+            </span>
+            <span>
+                <i class="fas fa-file-invoice-dollar"></i>    Loan Summary
+            </span>
+        </div>
 
-            <!-- Sidebar-->
-            <div class="col-6 col-md-2 sidebar">
-                <span class="sidebar">
-                    <i class="far fa-file-archive"></i>    Summary<br /><br />
-                    <i class="fas fa-users"></i>    Applicants<br /><br />
-                    <i class="fas fa-stream"></i>    Loan details<br /><br />
-                    <i class="fas fa-shield-alt"></i>    Security<br /><br />
-                    <i class="far fa-money-bill-alt"></i>    Finantial Position<br /><br />
-                    <i class="fas fa-file-invoice-dollar"></i>    Loan Summary
-                </span>
+        <!-- Main content-->
+        <div class="col-12 col-md-10 main-content">
+
+            <!--First top bar (gray)-->
+            <div class="gray-top-bar">
+                <i class="far fa-save"></i>
+                <i class="fas fa-print" ></i>
+                <br />
+                <p>Save</p>
+                <p>Print</p>
+                <i class="fas fa-cog"></i>
+                <i class="fas fa-user"></i>
+
+
+            </div>
+            <!--Second top bar -->
+            <div class="second-top-bar">
+                <br />
+                <img src="images/Lender Logo.jpg" />
+                <p>Application ID: 33334223</p>
+                <p>Lender App Ref: 821315302</p>
+                <img src="images/Icon house + $.jpg" />
+                <p>Loan Reason: Refinance OO </p>
+            </div>
+            <hr />
+
+            <!--Crumblebread-->
+            <div class="crumblebread">
+                <a href="#Home">Home</a>
+                <p>  >  </p>
+                <a href="#Application">Application</a>
+                <p>  >  </p>
+                <a href="#Summary">Summary</a>
+                <p>  >  </p>
+                <a>Application Summary</a>
             </div>
 
-            <!-- Main content-->
-            <div class="col-12 col-md-10 main-content">
-                <div class="gray-top-bar">
-                    <i class="far fa-save"></i>
-                    <p>Save</p>
-                    <i class="fas fa-print"></i>
-                    <p>Print</p>
-                    <i class="fas fa-cog"></i>
-                    <i class="fas fa-user"></i>
+
+            <!--Accordion-->
+            <div class="accordion">
+                <hr />
+                <div class="summary">
+                    <span class="summary">
+                        <i class="fas fa-minus-circle"></i>   SUMMARY
+                    </span>
+                    <p class="accordion">Application ID:  35234523</p>
+                    <p class="accordion">Loan:            Owner Occupied $ 223,623.34</p>
 
 
+                    <hr />
                 </div>
-                <div class="second-top-bar">
-
+                <div class="broker">
+                    <span class="broker">
+                        <i class="fas fa-minus-circle"></i>   BROKER INFORMATION
+                    </span>
+                    <hr />
                 </div>
+               <div class="accontant">
+                   <span class="accontant">
+                       <i class="fas fa-minus-circle"></i>   LEGAL REPRESENTATION + ACCONTANT
+                   </span>
+                   <hr />
+               </div>                
             </div>
         </div>
     </div>
     
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
