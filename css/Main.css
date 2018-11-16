@@ -34,13 +34,35 @@
     align-items: center; 
 }
 
-    .gray-top-bar i{
-        font-size: 24px; 
-    }
+#table-gray-top-bar {
+    border: 0;
+    color: white;
+    min-width: 100%;
+    margin-left: 20px;
+}
 
-    .fa-save {
 
-    }
+.gray-top-bar i {
+    font-size: 24px;
+}
+
+#save {
+    align-items: flex-start; 
+    margin-left: 20px;
+}
+
+#print {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+#cog {
+    align-items: flex-end;
+}
+
+#user {
+    align-items: flex-end;
+}
 
 /* Second top navigation bar  */
 
