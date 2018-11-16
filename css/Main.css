@@ -85,23 +85,75 @@ hr {
     width: 100%;
 }
 
-/* Table */
+    /* Summary */
 
-    table {
-        border: 1px solid black;
-        font-size: 12px;
+        /* Table */
+
+        table {
+            border: 1px solid black;
+            font-size: 12px;
+            color: midnightblue;
+            padding: 5px;
+            width: 90%;
+        }
+            #line-1 {
+                background-color: darkgray;
+            }
+
+            #line-2 {
+                background-color: lightgray;
+            }
+
+    /* Broker */
+    .broker {
         color: midnightblue;
-        padding: 5px;
-    }
-    #line-1 {
-        background-color: darkgray;
-    }
-
-    #line-2 {
-        background-color: lightgray;
+        font-size: 12px;
+        margin: 0;
+        font-weight: normal !important;
     }
 
-    #line-3 {
-
+    #table-broker {
+        border: 0;
+        padding-left: 20px;
+        width: 100%;
     }
+
+    #table-broker td {
+        padding-left: 20px;
+        margin-right: 2px;
+    }
+
+    .small-input-text {
+        max-width: 35px;
+    }
+
+    input, select {
+       border-radius: 5px;
+    }
+
+    /* Accontant */
+
+    #table-accontant {
+        border: 0;
+        padding-left: 20px;
+        width: 60%;
+    }
+
+
+    #table-accontant td {
+        padding-left: 20px;
+        margin-right: 2px;
+    }
+
+    .button {
+        color: white;
+        background-color: midnightblue;
+    }
+
+    .emply-option{
+        min-width: 150px;
+    }
+
+
+
 

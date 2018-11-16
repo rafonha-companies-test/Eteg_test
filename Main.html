@@ -84,6 +84,8 @@
                 <!--Accordion-->
                 <div class="accordion">
                     <hr />
+
+                    <!--Summary-->
                     <div class="summary">
                         <span class="summary">
                             <i class="fas fa-minus-circle"></i>   SUMMARY
@@ -126,16 +128,146 @@
                         <p class="accordion">Security: 10 Freesia Crescent, Kingston, TAS 5322 AU   Property type: Fully Detached House</p>
                         <hr />
                     </div>
-                    <div class="broker">
-                        <span class="broker">
+
+                    <!--Broker-->
+                    <div class="accordion">
+                        <span class="accordion">
                             <i class="fas fa-minus-circle"></i>   BROKER INFORMATION
                         </span>
+
+                        <p class="broker">Broker Number:     KIN0123 </p>
+                        <table id="table-broker">
+                            <tr>
+                                <td>
+                                    Company Name:   <input type="text" id="cname" name="companyname" placeholder="CMO Home Loans">
+                                </td>
+                                <td>
+                                    Phone Number: <input type="text" id="phonenumberid" class="small-input-text" name="phonenumberid" placeholder="03"><input type="text" id="phonenumber" name="phonenumber" placeholder="62294321">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Contact Name: <select name="personal-titles">
+                                        <option value="1">Mr</option>
+                                        <option value="2">Mrs</option>
+                                        <option value="3">Miss</option>
+                                        <option value="4">Ms</option>
+                                    </select>
+                                    <input type="text" id="firstname" name="firstname" placeholder="Andrew"><input type="text" id="lastname" name="lastname" placeholder="Brown">
+                                </td>
+                                <td>
+                                    Fax Number: <input type="text" id="phonenumberid" class="small-input-text" name="phonenumberid" placeholder="03"><input type="text" id="phonenumber" name="phonenumber" placeholder="62294321">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Email: <input type="email" name="email" id="email" placeholder="andrew@bol.com"
+                                </td>
+                                <td>
+                                    Mobile Number: <input type="text" id="mobilenumber" name="mobilenumber" placeholder="0415166465">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Address type: <select name="address-type">
+                                        <option value="1">Street Address</option>
+                                        <option value="2">Avenue Address</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Unit No. <input type="text" class="small-input-text" id="unit-no" name="unit-no"> Level: <input type="text" class="small-input-text" id="level" name="level" placeholder="23"> Building: <input type="text" id="phonenumber" name="phonenumber">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Street Address: <input type="text" class="small-input-text" id="address-no" name="address-no" placeholder="45"> <input type="text" id="level" name="level" placeholder="Pergan"> 
+                                    <select name="address-type">
+                                        <option value="1">Street</option>
+                                        <option value="2">Avenue </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Suburb: <input type="search" id="suburb" name="suburb" placeholder="Sydney"><i class="fas fa-search"></i> State: 
+                                    <select name="state">
+                                        <option value="1">NSW</option>
+                                        <option value="2">SYD </option>
+                                    </select>
+                                </td>
+                                <td>
+                                    Postcode: <input type="text" id="postcode" class="small-input-text" name="postcode" placeholder="2000"><i class="fas fa-search">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Country: 
+                                    <select name="country">
+                                        <option value="1">Australia</option>
+                                        <option value="2">New Zealand </option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
                         <hr />
                     </div>
+
+                    <!--Accontant-->
                     <div class="accontant">
                         <span class="accontant">
                             <i class="fas fa-minus-circle"></i>   LEGAL REPRESENTATION + ACCONTANT
                         </span>
+
+                        <table id="table-accontant">
+                            <tr>
+                                <td>
+                                    Will the applicant(s) be representing themselves? 
+                                </td>
+                                <td>
+                                    <select name="yes-no">
+                                        <option value="1">Yes</option>
+                                        <option value="2">No</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Receive Loan Offer Documentation:
+                                </td>
+                                <td>
+                                    <select name="applicants">
+                                        <option value="1">Mrs Julie Smith (applicant)</option>
+                                        <option value="2">Mr Ian Smith (applicant)</option>
+                                    </select>
+                                    <button class="button"><i class="fas fa-pencil-alt">Edit</i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Loan Documents Alternate Address:
+                                </td>
+                                <td>
+                                    <select name="applicants" class="emply-option">
+                                        <option value="0" ></option>
+                                    </select>
+                                    <button class="button"><i class="fas fa-pencil-alt">Edit</i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Accountant:
+                                </td>
+                                <td>
+                                    <select name="accontant"  class="emply-option">
+                                        <option value="0"></option>
+                                    </select>
+                                    <button class="button"><i class="fas fa-pencil-alt">Edit</i></button>
+                                    <button class="button"><i class="fas fa-plus-circle"></i>New</i></button>
+                                </td>
+                            </tr>
+                        </table>
                         <hr />
                     </div>
                 </div>
